@@ -16,4 +16,5 @@ async def roll(ctx, num_of_rolls: int, sides: int):
     await ctx.send(f"Rolling {num_of_rolls}d{sides}...\nYou rolled: {str(rolled)[1:-1]}\nTotal: {total}")
 
 
+# Bot token currently inactive
 bot.run("NjMzNDYzNzYzNTcxMzEwNjAz.XaUVKA.X18n4S_lIDET3TGdoX86KzPxQO8")
